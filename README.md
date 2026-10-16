@@ -1,0 +1,1 @@
+# OANDA_NATGASUSD_Natural-Gas
