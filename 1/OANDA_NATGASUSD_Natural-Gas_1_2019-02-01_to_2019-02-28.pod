@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "NATGAS_USD",
+  "granularity": "M1",
+  "chunk_start": "2019-02-01",
+  "chunk_end": "2019-02-28",
+  "parquet_file": "OANDA_NATGASUSD_Natural-Gas_1_2019-02-01_to_2019-02-28.parquet",
+  "data_file": "OANDA_NATGASUSD_Natural-Gas_1_2019-02-01_to_2019-02-28.parquet",
+  "row_count": 15724,
+  "first_candle": {
+    "time": 1548979200,
+    "Time": "2019-02-01T00:00:00.000000000Z",
+    "open": 2.904,
+    "high": 2.904,
+    "low": 2.904,
+    "close": 2.904,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1551398040,
+    "Time": "2019-02-28T23:54:00.000000000Z",
+    "open": 2.791,
+    "high": 2.791,
+    "low": 2.791,
+    "close": 2.791,
+    "volume": 1
+  },
+  "csv_file": "OANDA_NATGASUSD_Natural-Gas_1_2019-02-01_to_2019-02-28.parquet",
+  "csv_row_count": 15724,
+  "csv_first_candle": {
+    "time": 1548979200,
+    "Time": "2019-02-01T00:00:00.000000000Z",
+    "open": 2.904,
+    "high": 2.904,
+    "low": 2.904,
+    "close": 2.904,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1551398040,
+    "Time": "2019-02-28T23:54:00.000000000Z",
+    "open": 2.791,
+    "high": 2.791,
+    "low": 2.791,
+    "close": 2.791,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:35:06.000000000Z",
+  "generated_at": "2026-10-16T01:35:06.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2495,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2019-01-29T14:29:00Z",
+        "to": "2019-02-02T01:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-02-02T01:49:00Z",
+        "to": "2019-02-05T13:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-02-05T13:09:00Z",
+        "to": "2019-02-09T00:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-02-09T00:29:00Z",
+        "to": "2019-02-12T11:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-02-12T11:49:00Z",
+        "to": "2019-02-15T23:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-02-15T23:09:00Z",
+        "to": "2019-02-19T10:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-02-19T10:29:00Z",
+        "to": "2019-02-22T21:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-02-22T21:49:00Z",
+        "to": "2019-02-26T09:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-02-26T09:09:00Z",
+        "to": "2019-03-01T20:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

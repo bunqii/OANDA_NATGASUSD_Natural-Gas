@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "NATGAS_USD",
+  "granularity": "M1",
+  "chunk_start": "2024-03-01",
+  "chunk_end": "2024-03-31",
+  "parquet_file": "OANDA_NATGASUSD_Natural-Gas_1_2024-03-01_to_2024-03-31.parquet",
+  "data_file": "OANDA_NATGASUSD_Natural-Gas_1_2024-03-01_to_2024-03-31.parquet",
+  "row_count": 16588,
+  "first_candle": {
+    "time": 1709251200,
+    "Time": "2024-03-01T00:00:00.000000000Z",
+    "open": 1.81,
+    "high": 1.81,
+    "low": 1.81,
+    "close": 1.81,
+    "volume": 4
+  },
+  "last_candle": {
+    "time": 1711929060,
+    "Time": "2024-03-31T23:51:00.000000000Z",
+    "open": 1.62,
+    "high": 1.62,
+    "low": 1.62,
+    "close": 1.62,
+    "volume": 1
+  },
+  "csv_file": "OANDA_NATGASUSD_Natural-Gas_1_2024-03-01_to_2024-03-31.parquet",
+  "csv_row_count": 16588,
+  "csv_first_candle": {
+    "time": 1709251200,
+    "Time": "2024-03-01T00:00:00.000000000Z",
+    "open": 1.81,
+    "high": 1.81,
+    "low": 1.81,
+    "close": 1.81,
+    "volume": 4
+  },
+  "csv_last_candle": {
+    "time": 1711929060,
+    "Time": "2024-03-31T23:51:00.000000000Z",
+    "open": 1.62,
+    "high": 1.62,
+    "low": 1.62,
+    "close": 1.62,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:35:25.000000000Z",
+  "generated_at": "2026-10-16T01:35:25.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2495,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2024-02-26T18:29:00Z",
+        "to": "2024-03-01T05:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-03-01T05:49:00Z",
+        "to": "2024-03-04T17:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-03-04T17:09:00Z",
+        "to": "2024-03-08T04:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-03-08T04:29:00Z",
+        "to": "2024-03-11T15:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-03-11T15:49:00Z",
+        "to": "2024-03-15T03:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-03-15T03:09:00Z",
+        "to": "2024-03-18T14:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-03-18T14:29:00Z",
+        "to": "2024-03-22T01:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-03-22T01:49:00Z",
+        "to": "2024-03-25T13:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-03-25T13:09:00Z",
+        "to": "2024-03-29T00:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2024-03-29T00:29:00Z",
+        "to": "2024-04-01T11:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "NATGAS_USD",
+  "granularity": "M1",
+  "chunk_start": "2003-01-01",
+  "chunk_end": "2003-01-31",
+  "parquet_file": "OANDA_NATGASUSD_Natural-Gas_1_2003-01-01_to_2003-01-31.parquet",
+  "data_file": "OANDA_NATGASUSD_Natural-Gas_1_2003-01-01_to_2003-01-31.parquet",
+  "row_count": 461,
+  "first_candle": {
+    "time": 1043872140,
+    "Time": "2003-01-29T20:29:00.000000000Z",
+    "open": 5.66,
+    "high": 5.66,
+    "low": 5.66,
+    "close": 5.66,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1044041340,
+    "Time": "2003-01-31T19:29:00.000000000Z",
+    "open": 5.601,
+    "high": 5.601,
+    "low": 5.581,
+    "close": 5.601,
+    "volume": 6
+  },
+  "csv_file": "OANDA_NATGASUSD_Natural-Gas_1_2003-01-01_to_2003-01-31.parquet",
+  "csv_row_count": 461,
+  "csv_first_candle": {
+    "time": 1043872140,
+    "Time": "2003-01-29T20:29:00.000000000Z",
+    "open": 5.66,
+    "high": 5.66,
+    "low": 5.66,
+    "close": 5.66,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1044041340,
+    "Time": "2003-01-31T19:29:00.000000000Z",
+    "open": 5.601,
+    "high": 5.601,
+    "low": 5.581,
+    "close": 5.601,
+    "volume": 6
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:34:31.000000000Z",
+  "generated_at": "2026-10-16T01:34:31.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2495,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-01-29T20:29:00Z",
+        "to": "2003-02-02T07:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "NATGAS_USD",
+  "granularity": "M1",
+  "chunk_start": "2008-09-01",
+  "chunk_end": "2008-09-30",
+  "parquet_file": "OANDA_NATGASUSD_Natural-Gas_1_2008-09-01_to_2008-09-30.parquet",
+  "data_file": "OANDA_NATGASUSD_Natural-Gas_1_2008-09-01_to_2008-09-30.parquet",
+  "row_count": 14430,
+  "first_candle": {
+    "time": 1220227440,
+    "Time": "2008-09-01T00:04:00.000000000Z",
+    "open": 7.689,
+    "high": 7.689,
+    "low": 7.689,
+    "close": 7.689,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1222818300,
+    "Time": "2008-09-30T23:45:00.000000000Z",
+    "open": 7.33,
+    "high": 7.33,
+    "low": 7.33,
+    "close": 7.33,
+    "volume": 1
+  },
+  "csv_file": "OANDA_NATGASUSD_Natural-Gas_1_2008-09-01_to_2008-09-30.parquet",
+  "csv_row_count": 14430,
+  "csv_first_candle": {
+    "time": 1220227440,
+    "Time": "2008-09-01T00:04:00.000000000Z",
+    "open": 7.689,
+    "high": 7.689,
+    "low": 7.689,
+    "close": 7.689,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1222818300,
+    "Time": "2008-09-30T23:45:00.000000000Z",
+    "open": 7.33,
+    "high": 7.33,
+    "low": 7.33,
+    "close": 7.33,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:34:41.000000000Z",
+  "generated_at": "2026-10-16T01:34:41.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2495,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2008-08-29T01:09:00Z",
+        "to": "2008-09-01T12:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2008-09-01T12:29:00Z",
+        "to": "2008-09-04T23:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2008-09-04T23:49:00Z",
+        "to": "2008-09-08T11:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2008-09-08T11:09:00Z",
+        "to": "2008-09-11T22:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2008-09-11T22:29:00Z",
+        "to": "2008-09-15T09:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2008-09-15T09:49:00Z",
+        "to": "2008-09-18T21:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2008-09-18T21:09:00Z",
+        "to": "2008-09-22T08:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2008-09-22T08:29:00Z",
+        "to": "2008-09-25T19:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2008-09-25T19:49:00Z",
+        "to": "2008-09-29T07:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2008-09-29T07:09:00Z",
+        "to": "2008-10-02T18:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

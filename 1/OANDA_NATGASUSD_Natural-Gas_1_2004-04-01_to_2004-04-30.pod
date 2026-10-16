@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "NATGAS_USD",
+  "granularity": "M1",
+  "chunk_start": "2004-04-01",
+  "chunk_end": "2004-04-30",
+  "parquet_file": "OANDA_NATGASUSD_Natural-Gas_1_2004-04-01_to_2004-04-30.parquet",
+  "data_file": "OANDA_NATGASUSD_Natural-Gas_1_2004-04-01_to_2004-04-30.parquet",
+  "row_count": 5955,
+  "first_candle": {
+    "time": 1080778740,
+    "Time": "2004-04-01T00:19:00.000000000Z",
+    "open": 5.792,
+    "high": 5.792,
+    "low": 5.792,
+    "close": 5.792,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1083349740,
+    "Time": "2004-04-30T18:29:00.000000000Z",
+    "open": 5.763,
+    "high": 5.773,
+    "low": 5.763,
+    "close": 5.768,
+    "volume": 4
+  },
+  "csv_file": "OANDA_NATGASUSD_Natural-Gas_1_2004-04-01_to_2004-04-30.parquet",
+  "csv_row_count": 5955,
+  "csv_first_candle": {
+    "time": 1080778740,
+    "Time": "2004-04-01T00:19:00.000000000Z",
+    "open": 5.792,
+    "high": 5.792,
+    "low": 5.792,
+    "close": 5.792,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1083349740,
+    "Time": "2004-04-30T18:29:00.000000000Z",
+    "open": 5.763,
+    "high": 5.773,
+    "low": 5.763,
+    "close": 5.768,
+    "volume": 4
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:34:33.000000000Z",
+  "generated_at": "2026-10-16T01:34:33.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2495,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2004-03-31T22:29:00Z",
+        "to": "2004-04-04T09:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-04-04T09:49:00Z",
+        "to": "2004-04-07T21:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-04-07T21:09:00Z",
+        "to": "2004-04-11T08:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-04-11T08:29:00Z",
+        "to": "2004-04-14T19:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-04-14T19:49:00Z",
+        "to": "2004-04-18T07:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-04-18T07:09:00Z",
+        "to": "2004-04-21T18:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-04-21T18:29:00Z",
+        "to": "2004-04-25T05:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-04-25T05:49:00Z",
+        "to": "2004-04-28T17:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2004-04-28T17:09:00Z",
+        "to": "2004-05-02T04:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
